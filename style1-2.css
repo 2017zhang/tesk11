@@ -1,0 +1,72 @@
+.message, .layout-top > input, .layout-bottom > input {
+  width: 100%;
+  height: 90px;
+  margin-top: 20px;
+  padding-left: 97px;
+  color: #bababa;
+  font-size: 2rem;
+  background-color: #fff;
+  border: none;
+  outline: none; }
+
+.message-right, .nav-right, .main-right {
+  text-align: right; }
+
+* {
+  margin: 0; }
+
+html {
+  background-color: #fafafa; }
+
+header {
+  width: 100%;
+  background-color: #5fc0cd;
+  padding: 2% 0; }
+
+.nav-maddin {
+  margin: 20px auto;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem; }
+
+.nav-left {
+  text-align: left;
+  margin-top: -29px;
+  margin-left: 20px;
+  font-size: 1.33333rem;
+  color: #fff; }
+
+.nav-right {
+  margin-right: 20px;
+  margin-top: -50px;
+  font-size: 1.33333rem;
+  color: #fff; }
+
+.layout-top > input {
+  background: url(../images/01.jpg) no-repeat 20px center;
+  background-color: #fff; }
+
+.layout-bottom > input {
+  background: url(../images/02.jpg) no-repeat 20px center;
+  background-color: #fff; color:red !important;}
+
+.regsiter {
+  margin-top: 20px;
+  text-decoration: none; }
+
+.regsiter > a {
+  text-decoration: none; }
+
+.main-maddin {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: #5fc0cd;
+  font-size: 2rem;
+  color: #fff; }
+
+.main-right {
+  margin: 0.2em 1em;
+  color: #5fc0cd; }
+
+/*# sourceMappingURL=style1-2.css.map */

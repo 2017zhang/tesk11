@@ -1,0 +1,99 @@
+//sass style
+//-----------
+
+$primaryColor:#fff;
+$primarcolor-1:#5fc0cd;
+$primarcolor-backgroung:#fafafa;
+
+$font-size:2rem;
+$font-size-1:2rem;
+
+$font-size-2:20px;
+$font-size-3:30px;
+$width:100%;
+
+.message{
+  width:$width;
+  height:90px;
+  margin-top:$margin-top;
+  padding-left:97px;
+  color:#bababa;
+  font-size:$font-size;
+  background-color:$primaryColor;
+  border: none;
+  outline: none;
+}
+
+ .message-right{
+   text-align:right;
+ }
+
+
+
+@charset"uft-8";
+*{
+  margin:0;
+}
+html{
+  background-color:$primarcolor-backgroung;
+}
+header{
+  width:$width;
+  background-color:$primarcolor-1;
+  padding:2% 0;
+}
+.nav-maddin{
+  margin:$font-size-2 auto;
+  text-align:center;
+  color:$primaryColor;
+  font-size:$font-size;
+}
+.nav-left{
+  text-align:left;
+  margin-top:-($font-size-3);
+  margin-left:$margin-top;
+  font-size:$font-size/1.5;
+  color:$primaryColor;
+}
+.nav-right{
+  margin-right:$font-size-2;
+  @extend .message-right;
+  margin-top:$font-size-2*(-2.5);
+  font-size:$font-size/1.5;
+  color:$primaryColor;
+}
+.layout-top>input{
+  @extend .message;
+  background:url(../images/01.jpg) no-repeat {$fot-size-2} center;
+  background-color:$primaryColor;
+}
+.layout-bottom>input{
+  @extend .message;
+  background:url(../images/02.jpg) no-repeat {$fot-size-2} center;
+  background-color:$primaryColor;
+}
+ .input[placeholder], [placeholder], *[placeholder] {
+  color:red !important;
+}
+.regsiter{
+  margin-top:$margin-top;
+  text-decoration:none;
+}
+.regsiter>a{
+  text-decoration:none;
+}
+.main-maddin{
+  width:$width;
+  padding:$font-size-3 0;
+  text-align:center;
+  background-color:$primarcolor-1;
+  font-size:$font-size;
+  color:$primaryColor;
+}
+.main-right{
+
+  @extend .message-right;
+  width:50px;
+  margin: 0.2em 1em;
+  color:$primarcolor-1;
+}
